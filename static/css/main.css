@@ -1,0 +1,49 @@
+body {
+  overflow-x: hidden; /*makes it non-scrollable on the bottom*/
+}
+
+.card {
+  margin: 50px 25px; /* top right bottom left*/
+  padding: 25px;
+  box-shadow: 8px 8px 5px rgba(0,0,0,0.2); /* x offset y offset blur color rgba(r,g,b,opacity)*/
+}
+.card-img-top {
+  margin-bottom: 15px;
+}
+.card-subtitle {
+  padding-bottom: 8px;
+  font-style: italic; /*this effects every .card-subtitle, specifics would be h6.card-subtitle*/
+}
+.btn {
+  margin: 25px;
+}
+.center {
+  margin: 25px auto;
+  display: block; /*block elements take up entire width - no wrapping*/
+}
+.img_text {
+  margin: 10px; /*outside*/
+  padding-top: 50px; /*inside*/
+}
+footer {
+  margin-top: 75px;
+  padding: 15px;
+  background-color: rgb(52, 58, 64) !important;
+  color: lightgrey;
+}
+.padding {
+  margin: 25px;
+  padding: 15px;
+}
+.title {
+  margin-top: 75px;
+}
+form {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+.attach_bot {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
